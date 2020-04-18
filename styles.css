@@ -1,0 +1,377 @@
+/* Global */
+body{
+  background-color: #FFFAFA;
+  font-family: 'Quicksand', sans-serif;
+}
+#menuOpenIcon{
+  height: 30px;
+}
+#servicesBody{
+  padding-bottom: 20px;
+}
+#services{
+  height: 460px;
+}
+#servicesList{
+  float: right;
+  width: 48%;
+}
+#servicesTitle{
+  font-size: 50px;
+}
+#servicesbgImg{
+  float: left;
+  height: 460px;
+  width: 48%;
+  background-image: url("photos/office.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
+#contactUs{
+  background-image: url('photos/sea.PNG');
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.quote{
+  width: 40%;
+  padding-top: 20px;
+  padding-left: 15px;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  float: left;
+}
+#moto2{
+  padding-top: 40px;
+  font-family: 'Prata', serif;
+  font-size: 150%;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+#moto{
+  font-family: 'Quicksand', sans-serif;
+  clear: both;
+  float: right;
+  margin-top: -13px;
+  padding-right: 10px;
+}
+#coName{
+  font-family: 'Prata', serif;
+  float: right;
+  font-size: 180%;
+  padding-right: 10px;
+}
+#name{
+  font-family: 'Quicksand', sans-serif;
+  float: left;
+  padding-top: 9px;
+  padding-left: 10px;
+}
+#intro{
+  padding-right: 15%;
+  padding-left: 15%;
+  font-family: 'Quicksand', sans-serif;
+
+}
+#list{
+  padding-right: 15%;
+  font-family: 'Quicksand', sans-serif;
+}
+#articleTitle{
+  font-family: 'Prata', serif;
+  font-size: 150%;
+}
+#moto3{
+  padding-top: 30px;
+  font-family: 'Prata', serif;
+  font-size: 150%;
+  padding-right: 35%;
+  padding-left: 5%;
+}
+.refrenceQuote{
+  padding-top: 28px;
+}
+#leftSide{
+  float: left;
+  width: 50%;
+}
+#listCenter{
+  float: right;
+}
+#rightSide{
+  float: right;
+  padding-right: 30px;
+  width: 50%;
+}
+#check{
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-top: 30px;
+}
+#contForm{
+  font-family: 'Quicksand', sans-serif;
+  width: 70%;
+  float: right;
+  text-align: left;
+  margin-right: 38%;
+  padding-left: 50px
+}
+#formTitle{
+  font-family: 'Prata', serif;
+  font-size: 150%;
+  width: 70%;
+  float: right;
+  margin-top: 8px;
+  margin-right: 15%;
+  text-align: center;
+}
+#linkTitle{
+  font-family: 'Prata', serif;
+  font-size: 150%;
+  text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+ }
+a:link, a:visited, a:hover, a:active{
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+}
+ul{
+  font-family: 'Quicksand', sans-serif;
+}
+.textboxes{
+  width: 300px;
+}
+.msgtxtbox{
+  height: 150px;
+  width: 300px;
+}
+#lisaPicture, #scottPicture, #sarahPicture{
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  margin-left 10px;
+  margin-top: 20px;
+}
+#rebeccaPicture{
+  border-radius: 50%;
+  height: 180px;
+  margin-left 10px;
+  margin-top: 20px;
+}
+.usTitles{
+  margin-top: 40px;
+  font-size: 28px;
+  margin-left: 30px;
+  font-family: 'Prata', serif;
+}
+/* layout */
+#banner{
+  height: 40px;
+  border-bottom: 1px solid black;
+  text-align: right;
+}
+#section1{
+  clear: both;
+}
+#banner2{
+  clear: both;
+}
+#photo1{
+  clear: both;
+  background-image: url("photos/insideShop.jpg");
+  height: 330px;
+  margin-top: 55px;
+  background-position: center;
+  background-size: cover;
+}
+#contactBody{
+  height: 400px;
+}
+#leftPanel{
+  padding-bottom: 15px;
+  float: left;
+  width: 35%;
+  border-right: 1px solid black;
+}
+#rightPanel{
+  background-image: url('photos/work.PNG');
+  background-size: cover;
+  background-position: top;
+  margin-top: 50px;
+  height: 300px;
+  color: white;
+  float: right;
+  width: 48%;
+}
+#contactbutton{
+  float: right;
+}
+
+#firstComtentBlock{
+  height: 275px;
+}
+
+#photo2{
+  clear: both;
+  background-image: url("photos/shop.jpg");
+  height: 330px;
+  margin-top: 55px;
+  background-position: center;
+  background-size: cover;
+}
+#SecondComtentBlock{
+  height: 275px;
+}
+#photo3{
+  clear: both;
+  background-image: url("photos/office.jpg");
+  height: 330px;
+  margin-top: 55px;
+  background-position: center;
+  background-size: cover;
+}
+#ThirdComentBlock{
+  height: 275px;
+}
+#photo4{
+  clear: both;
+  background-image: url("photos/peopleTable.jpg");
+  height: 330px;
+  background-position: center;
+  background-size: cover;
+}
+#photo5{
+  clear: both;
+  background-image: url("photos/book2.jpg");
+  height: 200px;
+  margin-top: 55px;
+  background-position: center;
+  background-size: cover;
+}
+#mainContent{
+  border-bottom: 1px solid black;
+}
+#leftMainContent{
+  float: left;
+  padding-bottom: 20px;
+  width: 28%;
+}
+#rightMainContent{
+  float: right;
+  width: 68%;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Bio{
+  font-family: 'Quicksand', sans-serif;
+  background-color: #2F72A6;
+  color: white;
+  height: 400px;
+}
+#textBlock{
+  font-family: 'Quicksand', sans-serif;
+  height: 300px;
+}
+.textP{
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 35px;
+    margin-right: 20px;
+    height: 300px;
+}
+#bioRightSide{
+  margin-top: 30px;
+  float: right;
+  width: 38%;
+}
+#bioLeftSide{
+  float: left;
+  margin-left: 30px;
+  width: 50%;
+}
+#bottombanner{
+  clear: both;
+  margin-top: 10px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  border-top: 1px solid black;
+}
+/****************/
+/* Dropdown Button */
+.dropbtn {
+  font-family: 'Quicksand', sans-serif;
+  float: left;
+  color: black:
+  padding-top: 9px;
+  padding-left: 10px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  float: left;
+  display: inline-block;
+}
+.dropdown-content {
+  background-color: white;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+#signature{
+  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+}
+/* Links inside the dropdown */
+.dropdown-content a, .dropdown-content a:hover {
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+#leftMainContent a:hover{
+  color: black;
+  text-decoration: none;
+}
+/* features Layout */
+#featureBody{
+  /*margin-left: reponsive 10%*/
+}
+#row1{
+  clear:both;
+  height: 200px;
+}
+#row2{
+  clear:both;
+  height: 200px;
+}
+#row3{
+  clear:both;
+  height: 200px;
+}
+
+#col1 {
+  float: left;
+   width: 47%;
+   margin-right: 5px;
+}
+#col2 {
+  float: right;
+   width: 47%;
+   margin-left: 5px;
+}
+.col{
+
+}
